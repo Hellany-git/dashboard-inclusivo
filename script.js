@@ -3,7 +3,7 @@ function abrirImagem() {
   }
 
   function lerAviso() {
-    const texto = "Esse é um aviso importante. Por favor, preste atenção.";
+    const texto = "Hoje termina o prazo para revisão do espelho de ponto. Após esse prazo, os ajustes serão bloqueados e não será permitida nenhuma alteração. Solicito aos gestores e colaboradores que realizem a devida revisão e autorizem as informações pendentes. Assim que tudo estiver correto, basta registrar o de acordo para concluir a revisão do ponto. Cordialmente, Recursos Humanos";
     const fala = new SpeechSynthesisUtterance(texto);
     fala.lang = "pt-BR";
     speechSynthesis.speak(fala);
